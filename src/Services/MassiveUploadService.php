@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosteam\FCHA-Massive\Services;
+namespace Delfosteam\FCHA_Massive\Services;
 
 use ErrorException;
 use Illuminate\Database\QueryException;
@@ -8,12 +8,12 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
 // Services
-use Delfosteam\FCHA-Massive\Services\PackageConfigurationService;
-use Delfosteam\FCHA-Massive\Services\ModelService;
-use Delfosteam\FCHA-Massive\Services\ApiService;
-use Delfosteam\FCHA-Massive\Services\GeneralService;
-use Delfosteam\FCHA-Massive\Services\DatabaseService;
-use Delfosteam\FCHA-Massive\Services\MassiveUploadLogService;
+use Delfosteam\FCHA_Massive\Services\PackageConfigurationService;
+use Delfosteam\FCHA_Massive\Services\ModelService;
+use Delfosteam\FCHA_Massive\Services\ApiService;
+use Delfosteam\FCHA_Massive\Services\GeneralService;
+use Delfosteam\FCHA_Massive\Services\DatabaseService;
+use Delfosteam\FCHA_Massive\Services\MassiveUploadLogService;
 use Illuminate\Support\Facades\Log;
 
 class MassiveUploadService

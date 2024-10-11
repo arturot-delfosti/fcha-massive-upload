@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosteam\FCHA-Massive\Traits;
+namespace Delfosteam\FCHA_Massive\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Http\Resources\Json\JsonResource;

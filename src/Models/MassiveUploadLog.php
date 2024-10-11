@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosteam\FCHA-Massive\Models;
+namespace Delfosteam\FCHA_Massive\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

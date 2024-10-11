@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosteam\FCHA-Massive\Services;
+namespace Delfosteam\FCHA_Massive\Services;
 
 use DateTime;
 

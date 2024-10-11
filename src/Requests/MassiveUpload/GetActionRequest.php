@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosteam\FCHA-Massive\Requests\MassiveUpload;
+namespace Delfosteam\FCHA_Massive\Requests\MassiveUpload;
 
 use Illuminate\Foundation\Http\FormRequest;
 
