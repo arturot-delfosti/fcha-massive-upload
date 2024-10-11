@@ -349,25 +349,25 @@ class MassiveUploadService
 
                             $parent = $item[$entity['entity']][0];
                             if ($this->hasIdInEntity($entity)) {
-				if ($entity['entity'] == 'UserPerson') {    
-				$response = $this->databaseService->findByField(
-                                    $this->modelService->getTable($models[$entity['entity']]),
+                                if ($entity['entity'] == 'UserPerson') {
+                                    $response = $this->databaseService->findByField(
+                                        $this->modelService->getTable($models[$entity['entity']]),
                                         'document_number',
                                         $parent['document_number']
-                                );
- 				Log::info('response',['response' => $response]);
-				if ($response) {                     
-					$parentIds[$entity['entity']] = $response->id;                     
-					Log::info('Registro encontrado', ['id' => $response->id]);                     
-					// Saltar la inserción si el registro ya existe
-					continue;                 
-				} else {                     
-					// Si no existe, sigue con la inserción
-					Log::info('No se encontró, insertando nuevo registro'); 
-				}
-				}
-			    }
-     
+                                    );
+                                    Log::info('response', ['response' => $response]);
+                                    if ($response) {
+                                        $parentIds[$entity['entity']] = $response->id;
+                                        Log::info('Registro encontrado', ['id' => $response->id]);
+                                        // Saltar la inserción si el registro ya existe
+                                        continue;
+                                    } else {
+                                        // Si no existe, sigue con la inserción
+                                        Log::info('No se encontró, insertando nuevo registro');
+                                    }
+                                }
+                            }
+
                             // Foreign keys
 
                             // In flow => Get the value of the foreign keys that are inside the stream
