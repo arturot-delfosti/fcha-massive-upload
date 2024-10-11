@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosti\Massive\Resources;
+namespace Delfosteam\FCHA-Massive\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

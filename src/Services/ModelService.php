@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosti\Massive\Services;
+namespace Delfosteam\FCHA-Massive\Services;
 
 use ErrorException;
 
