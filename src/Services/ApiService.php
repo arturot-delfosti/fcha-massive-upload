@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosteam\Massive\Services;
+namespace Delfosteam\FCHA-Massive\Services;
 
 date_default_timezone_set('America/Lima');
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosteam\Massive;
+namespace Delfosteam\FCHA-Massive;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -17,8 +17,8 @@ class MassiveServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/routes.php');
 
         // Controllers
-        $this->app->make('Delfosteam\Massive\Controllers\MassiveUploadController');
-        $this->app->make('Delfosteam\Massive\Controllers\MassiveUploadLogController');
+        $this->app->make('Delfosteam\FCHA-Massive\Controllers\MassiveUploadController');
+        $this->app->make('Delfosteam\FCHA-Massive\Controllers\MassiveUploadLogController');
 
         // Migrations
         $this->loadMigrationsFrom(__DIR__.'/Database/migrations');
