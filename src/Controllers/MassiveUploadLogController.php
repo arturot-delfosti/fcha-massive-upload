@@ -1,15 +1,15 @@
 <?php
 
-namespace Delfosti\Massive\Controllers;
+namespace Delfosteam\Massive\Controllers;
 
 use Illuminate\Http\Request;
-use Delfosti\Massive\Traits\HasResponse;
+use Delfosteam\Massive\Traits\HasResponse;
 use App\Http\Controllers\Controller;
 
 use Error;
 
 // Services
-use Delfosti\Massive\Services\MassiveUploadLogService;
+use Delfosteam\Massive\Services\MassiveUploadLogService;
 
 class MassiveUploadLogController extends Controller
 {

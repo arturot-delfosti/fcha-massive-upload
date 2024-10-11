@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosti\Massive\Traits;
+namespace Delfosteam\Massive\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Http\Resources\Json\JsonResource;

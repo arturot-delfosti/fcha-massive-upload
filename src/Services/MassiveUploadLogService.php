@@ -1,14 +1,14 @@
 <?php
 
-namespace Delfosti\Massive\Services;
+namespace Delfosteam\Massive\Services;
 
 use Illuminate\Support\Facades\DB;
 
-use Delfosti\Massive\Models\MassiveUploadLog;
-use Delfosti\Massive\Resources\MassiveUploadLogResource;
+use Delfosteam\Massive\Models\MassiveUploadLog;
+use Delfosteam\Massive\Resources\MassiveUploadLogResource;
 
-use Delfosti\Massive\Services\GeneralService;
-use Delfosti\Massive\Services\PackageConfigurationService;
+use Delfosteam\Massive\Services\GeneralService;
+use Delfosteam\Massive\Services\PackageConfigurationService;
 
 class MassiveUploadLogService
 {

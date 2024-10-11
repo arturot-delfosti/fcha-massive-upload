@@ -1,6 +1,6 @@
 <?php
 
-namespace Delfosti\Massive\Services;
+namespace Delfosteam\Massive\Services;
 
 use Illuminate\Support\Facades\Validator;
 

@@ -1,21 +1,21 @@
 <?php
 
-namespace Delfosti\Massive\Controllers;
+namespace Delfosteam\Massive\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-use Delfosti\Massive\Traits\HasResponse;
+use Delfosteam\Massive\Traits\HasResponse;
 use Exception;
 
 // Form requests
-use Delfosti\Massive\Requests\MassiveUpload\UploaderRequest;
-use Delfosti\Massive\Requests\MassiveUpload\GetActionRequest;
+use Delfosteam\Massive\Requests\MassiveUpload\UploaderRequest;
+use Delfosteam\Massive\Requests\MassiveUpload\GetActionRequest;
 
 // Services
-use Delfosti\Massive\Services\PackageConfigurationService;
-use Delfosti\Massive\Services\PackageConfigurationValidationService;
-use Delfosti\Massive\Services\MassiveUploadService;
+use Delfosteam\Massive\Services\PackageConfigurationService;
+use Delfosteam\Massive\Services\PackageConfigurationValidationService;
+use Delfosteam\Massive\Services\MassiveUploadService;
 
 class MassiveUploadController extends Controller
 {

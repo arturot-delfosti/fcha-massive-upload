@@ -1,12 +1,12 @@
 {
-    "name": "delfosti/massive",
+    "name": "delfosteam/massive",
     "description": "Massive Uploader for FCHA",
     "type": "library",
     "license": "MIT",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Delfosti\\Massive\\": "src/"
+            "Delfosteam\\Massive\\": "src/"
         }
     },
     "authors": [
